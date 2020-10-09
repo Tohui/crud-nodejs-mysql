@@ -4,7 +4,7 @@ const express = require('express'),
       mysql = require('mysql'),
       myConnection = require('express-myconnection');
 
-const app = express(); 
+const app = express();  
 
 // importing routes
 const customerRoutes = require('./routes/customer');
